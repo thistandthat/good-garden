@@ -1,8 +1,16 @@
 {
   "current": {
+    "colors_accent_2": "#c7d0b3",
     "colors_background_1": "#c7d0b3",
+    "colors_background_2": "#c7d0b3",
     "type_header_font": "serif",
     "type_body_font": "open_sans_n4",
+    "checkout_body_background_color": "#FFFFFF",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#c7d0b3",
+    "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#c7d0b3",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
