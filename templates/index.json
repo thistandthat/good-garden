@@ -197,6 +197,77 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "164489557445f74697": {
+      "type": "featured-product",
+      "blocks": {
+        "16448955747e133500-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16448955747e133500-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16448955747e133500-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16448955747e133500-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16448955747e133500-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16448955747e133500-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16448955747e133500-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16448955747e133500-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16448955747e133500-0",
+        "16448955747e133500-1",
+        "16448955747e133500-2",
+        "16448955747e133500-3",
+        "16448955747e133500-4",
+        "16448955747e133500-5",
+        "16448955747e133500-6",
+        "16448955747e133500-7"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -205,6 +276,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "164489557445f74697"
   ]
 }
