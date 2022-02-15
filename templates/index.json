@@ -203,9 +203,10 @@
       "blocks": {
         "16448955747e133500-0": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
+            "text_style": "body"
           }
         },
         "16448955747e133500-1": {
@@ -244,6 +245,7 @@
         },
         "16448955747e133500-7": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
