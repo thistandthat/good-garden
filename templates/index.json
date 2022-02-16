@@ -2,23 +2,31 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
+            "heading": "Image banner",
             "heading_size": "large"
           }
         },
         "text": {
-          "type": "text"
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
-            "button_label_2": ""
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -30,8 +38,12 @@
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
+        "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
@@ -40,10 +52,17 @@
       "type": "rich-text",
       "blocks": {
         "heading": {
-          "type": "heading"
+          "type": "heading",
+          "settings": {
+            "heading": "Less common Aotearoa \/ New Zealand natives. Benifical exotics. Permaculture friendly",
+            "heading_size": "h0"
+          }
         },
         "text": {
-          "type": "text"
+          "type": "text",
+          "settings": {
+            "text": "<p>Please check back regularly as availabilty and quantities vary frequently.  <\/p>"
+          }
         }
       },
       "block_order": [
@@ -51,57 +70,112 @@
         "text"
       ],
       "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
       }
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "collection": "all",
         "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
         "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
         "show_secondary_image": true,
-        "padding_top": 28
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "collection-0": {
-          "type": "collection"
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
         },
         "product": {
-          "type": "product"
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
         },
         "collection-1": {
-          "type": "collection"
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "collection-0",
         "product",
         "collection-1"
-      ]
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
-        "heading": ""
+        "heading": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         },
         "column2": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         },
         "column3": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -112,9 +186,89 @@
       "settings": {
         "title": "",
         "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": ""
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164489557445f74697": {
+      "type": "featured-product",
+      "blocks": {
+        "16448955747e133500-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "body"
+          }
+        },
+        "16448955747e133500-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16448955747e133500-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16448955747e133500-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16448955747e133500-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16448955747e133500-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16448955747e133500-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16448955747e133500-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16448955747e133500-0",
+        "16448955747e133500-1",
+        "16448955747e133500-2",
+        "16448955747e133500-3",
+        "16448955747e133500-4",
+        "16448955747e133500-5",
+        "16448955747e133500-6",
+        "16448955747e133500-7"
+      ],
+      "settings": {
+        "product": "kareao-ripogonum-scandens-supplejack",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -124,6 +278,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "164489557445f74697"
   ]
 }
